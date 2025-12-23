@@ -68,27 +68,93 @@ function App() {
             </div>
 
             <div className="letter-body">
+              {/* To and From Section */}
+              <div className="to-from-section">
+                <p className="to-text">
+                  <span className="label">To:</span> <strong>Gresia Enzelina Hutahean</strong>
+                </p>
+                <p className="from-text">
+                  <span className="label">From:</span> <strong>Eichal Elphindo Ginting</strong>
+                </p>
+              </div>
+
               <div className="christmas-icon">🎄</div>
               
               <p className="greeting">
-                Halo <strong>Gresia Enzelika Hutahean</strong>,<br /><br />
-                maukah kamu pergi bersamaku ke malam natal dan juga natal di tanggal 
-                <strong> 24 dan 25 Desember</strong> untuk bersama merayakan natal?
+                Dear Gresia, <br />
+                Maukah kamu menemaniku merayakan Malam Natal dan juga Natal di :
               </p>
 
+              {/* Event Details */}
+              <div className="event-details-card">
+                <div className="detail-row">
+                  <span className="detail-icon">📅</span>
+                  <div className="detail-info">
+                    <span className="detail-label">Tanggal</span>
+                    <span className="detail-value">24 - 25 Desember 2025</span>
+                  </div>
+                </div>
+
+                <div className="detail-row">
+                  <span className="detail-icon">🕐</span>
+                  <div className="detail-info">
+                    <span className="detail-label">Waktu</span>
+                    <span className="detail-value">
+                      24 Des: 18.00 WIB - Selesai<br/>
+                      25 Des: 08.00 WIB - Selesai
+                    </span>
+                  </div>
+                </div>
+
+                <div className="detail-row">
+                  <span className="detail-icon">📍</span>
+                  <div className="detail-info">
+                    <span className="detail-label">Tempat</span>
+                    <span className="detail-value">
+                      Gereja Katolik Santa Maria Immaculata<br/>
+                      <a 
+                        href="https://maps.app.goo.gl/9VXFddm2xfsHanY98" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="location-link"
+                      >
+                        📍 Lihat di Google Maps
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
               <div className="heart-decoration">
-                <span>💝</span>
-                <span>✨</span>
-                <span>💝</span>
+                <span>❄️</span>
+                <span>🎄</span>
+                <span>❄️</span>
               </div>
 
               <div className="response-section">
                 <p className="response-text">
-                  Ketik <strong className="yes-text">Yes</strong> kalau kamu mau<br />
-                  dan ketik <strong className="no-text">No</strong> kalau gak mau
+                  Konfirmasi kehadiranmu:
                 </p>
+                <div className="button-group">
+                  <a 
+                    href="https://wa.me/6285709269237?text=Mau!" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="response-button yes-button"
+                  >
+                    ✓ Mau
+                  </a>
+                  <a 
+                    href="https://wa.me/6285709269237?text=%20Gak%20bisa!" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="response-button no-button"
+                  >
+                    ✗ Gak Mau
+                  </a>
+                </div>
                 <p className="hope-text">
-                  I hope you will say yes 💕
+                  I hope you will say yes 💙
                 </p>
               </div>
 

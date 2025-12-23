@@ -62,8 +62,8 @@ function App() {
         {isOpen && (
           <div className="letter-content">
             <div className="letter-header">
-              <div className="ornament">💌</div>
-              <h1 className="title">Invitation Letter</h1>
+              <div className="ornament">✦</div>
+              <h1 className="title">Christmas Invitation</h1>
               <div className="divider"></div>
             </div>
 
@@ -78,7 +78,7 @@ function App() {
                 </p>
               </div>
 
-              <div className="christmas-icon">🎄</div>
+              <div className="christmas-icon">❄</div>
               
               <p className="greeting">
                 Dear Gresia, <br />
@@ -88,7 +88,7 @@ function App() {
               {/* Event Details */}
               <div className="event-details-card">
                 <div className="detail-row">
-                  <span className="detail-icon">📅</span>
+                  <span className="detail-icon">✧</span>
                   <div className="detail-info">
                     <span className="detail-label">Tanggal</span>
                     <span className="detail-value">24 - 25 Desember 2025</span>
@@ -96,7 +96,7 @@ function App() {
                 </div>
 
                 <div className="detail-row">
-                  <span className="detail-icon">🕐</span>
+                  <span className="detail-icon">✧</span>
                   <div className="detail-info">
                     <span className="detail-label">Waktu</span>
                     <span className="detail-value">
@@ -107,7 +107,7 @@ function App() {
                 </div>
 
                 <div className="detail-row">
-                  <span className="detail-icon">📍</span>
+                  <span className="detail-icon">✧</span>
                   <div className="detail-info">
                     <span className="detail-label">Tempat</span>
                     <span className="detail-value">
@@ -118,7 +118,7 @@ function App() {
                         rel="noopener noreferrer"
                         className="location-link"
                       >
-                        📍 Lihat di Google Maps
+                        ↗ Lihat di Google Maps
                       </a>
                     </span>
                   </div>
@@ -126,9 +126,9 @@ function App() {
               </div>
 
               <div className="heart-decoration">
-                <span>❄️</span>
-                <span>🎄</span>
-                <span>❄️</span>
+                <span>✦</span>
+                <span>❄</span>
+                <span>✦</span>
               </div>
 
               <div className="response-section">
@@ -154,14 +154,14 @@ function App() {
                   </a>
                 </div>
                 <p className="hope-text">
-                  I hope you will say yes 💙
+                  I hope you will say yes ✦
                 </p>
               </div>
 
               <div className="footer-ornament">
-                <span>✨</span>
-                <span>🎄</span>
-                <span>✨</span>
+                <span>·</span>
+                <span>✦</span>
+                <span>·</span>
               </div>
             </div>
 
